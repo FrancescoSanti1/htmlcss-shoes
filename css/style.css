@@ -1,3 +1,5 @@
+/* Regole generali */
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
 * {
@@ -9,6 +11,8 @@
 body {
     font-family: 'Rubik Mono One', sans-serif;
 }
+
+/* CSS relativo al menù fisso di navigazione in alto a destra */
 
 nav {
     z-index: 10;
@@ -34,6 +38,8 @@ nav ul li a {
     height: 100%;
     display: block;
 }
+
+/* CSS relativo ai tre blocchi */
 
 .contenitore-prodotto {
     height: 100vh;
